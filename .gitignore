@@ -1,0 +1,9 @@
+﻿.venv/
+build/
+__pycache__/
+*.exe
+*.zip
+*.dpapi
+*.log
+kis_token_cooldown.json
+kis_app.lock

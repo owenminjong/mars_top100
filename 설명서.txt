@@ -1,0 +1,22 @@
+설명서
+
+압축풀자마자
+
+압축 풀었던 파일 쉬프트+마우스 우클릭 파워쉘 클릭
+
+
+(여기에 powershell 창열기) 라는 칸이 있음 그거 클릭 이후
+
+py -3 -m PyInstaller --noconfirm --distpath . MARS_KIS.spec
+
+pip install pyinstaller pyinstaller --noconsole --onefile main.py
+
+powershell -ExecutionPolicy Bypass -File .\build.ps1
+
+
+셋중에 하나 복사붙여넣기 하면 파일이 생성됩니다. 그대로 쓰면 끝
+
+
+셋중하나가 안되면 블로그댓글남기세요.
+
+​
